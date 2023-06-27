@@ -1,4 +1,4 @@
-import PaginaInicial from './paginas/PaginaInicial'
+import PaginaInicial from './Pages/PaginaInicial'
 import './styles/estilosGlobais.scss'
 export default function App() {
   return <PaginaInicial></PaginaInicial>
