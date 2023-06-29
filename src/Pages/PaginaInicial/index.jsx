@@ -2,6 +2,7 @@ import Cabecalho from "../../Components/Cabecalho";
 import Menu from "../../Components/Menu"
 import styles from "./PaginaInicial.module.scss"
 import Banner from "../../Components/Banner";
+import Footer from "../../Components/Footer";
 
 export default function PaginaInicial(){
 
@@ -15,6 +16,7 @@ export default function PaginaInicial(){
         </section>
 
       </main>
+      <Footer></Footer>
     </>
   );
 }
