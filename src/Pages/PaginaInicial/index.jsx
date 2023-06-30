@@ -3,6 +3,7 @@ import Menu from "../../Components/Menu"
 import styles from "./PaginaInicial.module.scss"
 import Banner from "../../Components/Banner";
 import Footer from "../../Components/Footer";
+import Galeria from "../../Components/Galeria";
 
 export default function PaginaInicial(){
 
@@ -14,8 +15,10 @@ export default function PaginaInicial(){
           <Menu></Menu>
           <Banner></Banner>
         </section>
-
       </main>
+      <div className={styles.galeria}>
+        <Galeria></Galeria>
+      </div>
       <Footer></Footer>
     </>
   );

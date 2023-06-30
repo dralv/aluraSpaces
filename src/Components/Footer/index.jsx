@@ -8,9 +8,15 @@ export default function Footer() {
   return (
     <footer className={styles.footer}>
       <div className={styles.footer__icones}>
-        <img src={facebook}></img>
-        <img src={insta}></img>
-        <img src={twitter}></img>
+        <a href='./'>
+          <img src={facebook}></img>
+        </a>
+        <a href='./'>
+          <img src={insta}></img>
+        </a>
+        <a href='./'> 
+          <img src={twitter}></img>
+        </a>
       </div>
       <div >
         <p className={styles.footer__creditos}>Desenvolvido por Álvaro Araújo</p>
