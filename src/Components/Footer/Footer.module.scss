@@ -1,0 +1,23 @@
+@import '../../styles/variaveis';
+.footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 1rem;
+  background-color: $azul-rodape;
+  margin-top: 1.5rem;
+ 
+ 
+
+  &__icones{
+    display: flex;
+    flex: 0.08;
+    justify-content: space-between;
+  }
+
+  &__creditos{
+    font-family: $fonte-bold;
+    color: $cor-do-texto;
+  }
+}
