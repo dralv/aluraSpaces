@@ -1,6 +1,6 @@
+import styles from "./PaginaInicial.module.scss"
 import Cabecalho from "../../Components/Cabecalho";
 import Menu from "../../Components/Menu"
-import styles from "./PaginaInicial.module.scss"
 import Banner from "../../Components/Banner";
 import Footer from "../../Components/Footer";
 import Galeria from "../../Components/Galeria";
